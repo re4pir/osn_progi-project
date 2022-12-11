@@ -99,6 +99,53 @@ h6 {
 body {
   position: relative;
   margin: 0 auto;
-  min-width: 1920px;
+  max-width: 1920px;
   font-family: sans-serif;
 }
+
+.main__container {
+  padding: 0px 0;
+  margin: 0 auto;
+  width: 1760px;
+}
+
+.birdhome__body {
+  padding-top: 150px;
+  background-color: #FEFBE7;
+  max-width: 1920px;
+}
+
+.birdhome__inner {
+  padding-bottom: 76px;
+}
+
+.birdhome__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.birdhome__image {
+  max-width: 400px;
+  background-color: #DAE5D0;
+  border-radius: 10px;
+}
+
+.IMAGE {
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.birdhome__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  padding-bottom: 9px;
+}
+
