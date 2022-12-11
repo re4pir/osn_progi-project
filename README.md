@@ -1,1 +1,1 @@
-# osn_progi-project
+# osn_web
