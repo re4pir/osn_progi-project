@@ -167,10 +167,15 @@ body {
   line-height: 24px;
 }
 
-.birdhome__body {
+.birdhome{
   padding-top: 150px;
   background-color: #fefbe7;
   max-width: 1920px;
+  margin: 0 auto;
+}
+
+.birdhome__body {
+  padding-top: 50px;
 }
 
 .birdhome__inner {
@@ -189,6 +194,7 @@ body {
   max-width: 400px;
   background-color: #dae5d0;
   border-radius: 10px;
+  box-shadow: 0 25px 25px rgb(0 20 0 / 20%);
 }
 
 .IMAGE {
