@@ -129,7 +129,6 @@ body {
   z-index: 2;
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .main__container {
@@ -151,7 +150,7 @@ body {
 }
 
 .nav-first {
-  margin-right: 600px;
+  margin-right: 550px;
 }
 
 .header__img {
@@ -163,14 +162,19 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
-.birdhome__body {
+.birdhome{
   padding-top: 150px;
   background-color: #fefbe7;
   max-width: 1920px;
+  margin: 0 auto;
+}
+
+.birdhome__body {
+  padding-top: 50px;
 }
 
 .birdhome__inner {
@@ -189,6 +193,7 @@ body {
   max-width: 400px;
   background-color: #dae5d0;
   border-radius: 10px;
+  box-shadow: 0 25px 25px rgb(0 20 0 / 20%);
 }
 
 .IMAGE {
