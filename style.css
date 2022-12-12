@@ -166,3 +166,43 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+
+.birdhome__body {
+  padding-top: 150px;
+  background-color: #fefbe7;
+  max-width: 1920px;
+}
+
+.birdhome__inner {
+  padding-bottom: 76px;
+}
+
+.birdhome__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.birdhome__image {
+  max-width: 400px;
+  background-color: #dae5d0;
+  border-radius: 10px;
+}
+
+.IMAGE {
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.birdhome__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  padding-bottom: 9px;
+}
