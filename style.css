@@ -21,6 +21,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Gotham Pro";
   src: local("GothamPro-bold"), url(/assets/fonts/gothampro_bold.ttf);
@@ -103,16 +104,88 @@ body {
   font-family: sans-serif;
 }
 
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding-top: 20px;
+}
+
 .main__container {
   padding: 0px 0;
   margin: 0 auto;
   width: 1760px;
 }
 
-.birdhome__body {
+.header__logo {
+  margin-right: auto;
+}
+
+.header__nav {
+  align-items: center;
+}
+
+.nav-first__item:not(:last-child) {
+  margin-right: 120px;
+}
+
+.nav-first {
+  margin-right: 460px;
+}
+
+.header__img {
+  width: 200px;
+  height: 100px;
+}
+
+.nav-first__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #141414;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+}
+
+.stripe {
+  background-color: #dae5d0;
+  width: 1920px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.birdhome {
   padding-top: 150px;
-  background-color: #FEFBE7;
+  background-color: #fefbe7;
   max-width: 1920px;
+  margin: 0 auto;
+}
+
+.birdhome__body {
+  padding-top: 50px;
 }
 
 .birdhome__inner {
@@ -129,12 +202,12 @@ body {
 
 .birdhome__image {
   max-width: 400px;
-  background-color: #DAE5D0;
+  background: #dae5d0;
   border-radius: 10px;
+  box-shadow: 0 25px 25px rgb(0 20 0 / 20%);
 }
 
 .IMAGE {
-  padding-bottom: 5px;
   border-radius: 10px;
 }
 
@@ -147,5 +220,161 @@ body {
   line-height: 24px;
   color: #141414;
   padding-bottom: 9px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
 }
 
+.stripe__birdhome {
+  background: #dae5d0;
+  width: 1920px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.popuga {
+  background: #fefbe7;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.popuga__body {
+  padding-top: 50px;
+}
+
+.popuga__h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #141414;
+  padding-bottom: 90px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+
+}
+
+.popuga__inner {
+  padding-bottom: 76px;
+}
+
+.popuga__block {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.popuga__image {
+  max-width: 400px;
+  background: #dae5d0;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px rgb(0 20 0 / 20%);
+}
+
+.popuga__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  padding-bottom: 9px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+}
+
+.popuga__button {
+  height: 35px;
+  width: 400px;
+  border-radius: 25px;
+  border-color: #A0BCC2;
+  cursor: pointer;
+  border-style: solid;
+  background-color: #FEFBE7;
+  max-width: 180px;
+  margin-bottom: 15px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  margin-left: 25px;
+}
+
+
+.swimbird {
+  background: #fefbe7;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.swimbird__body {
+  padding-top: 50px;
+}
+
+.swimbird__h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #141414;
+  padding-bottom: 90px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+
+}
+
+.swimbird__inner {
+  padding-bottom: 76px;
+}
+
+.swimbird__block {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.swimbird__image {
+  max-width: 400px;
+  background: #dae5d0;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px rgb(0 20 0 / 20%);
+}
+
+.swimbird__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  padding-bottom: 9px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+}
+
+.swimbird__button {
+  height: 35px;
+  width: 400px;
+  border-radius: 25px;
+  border-color: #A0BCC2;
+  cursor: pointer;
+  border-style: solid;
+  background-color: #FEFBE7;
+  max-width: 180px;
+  margin-bottom: 15px;
+  text-shadow: 0 3px 3px rgb(0 20 0 / 35%);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #141414;
+  margin-left: 25px;
+}
